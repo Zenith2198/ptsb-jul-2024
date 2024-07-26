@@ -1,0 +1,23 @@
+body {
+	background-color: beige;
+	height: 90vh;
+}
+
+.flexParent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	gap: 2px;
+}
+
+.flexChild {
+	background-color: aqua;
+	border: solid black 1px;
+	padding: 5px;
+	width: 400px;
+}
+
+.flexChild:hover {
+	background-color: antiquewhite;
+}
