@@ -19,3 +19,6 @@
 [submodule "unit2-js/unit-2-fizzbuzz-Zenith2109"]
 	path = unit2-js/unit-2-fizzbuzz-Zenith2109
 	url = https://github.com/uprighted-learners/unit-2-lab-fizzbuzz-Zenith2198.git
+[submodule "unit2-js/unit-2-lab-potato-poem-Zenith2198"]
+	path = unit2-js/unit-2-lab-potato-poem-Zenith2198
+	url = https://github.com/uprighted-learners/unit-2-lab-potato-poem-Zenith2198.git
