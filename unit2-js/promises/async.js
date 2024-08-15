@@ -4,7 +4,7 @@ async function main() {
 		const ditto = await response.json();
 		return ditto;
 	}
-	
+
 	const ditto = await pokeFetch();
 	console.log(ditto.height);
 }
