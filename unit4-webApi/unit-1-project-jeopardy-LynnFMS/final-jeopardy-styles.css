@@ -1,0 +1,142 @@
+/* stylesheet for the Final Jeopary Round */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(83, 197, 231);
+    height: 80vh;
+}
+
+/* Title/Name of the Final Jeopardy Page */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-text {
+    font-size: 25;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+/* PLAYER TURN - Subtitle of the Final Jeopardy Page */
+.player-turn {
+    display: flex;
+    justify-content: center;
+}
+
+.player-turn-child {
+    font-size: x-large;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+/* A single Final Category */
+.final-category-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.final-category-child {
+    background-color: lightgoldenrodyellow;
+    border: solid black 3px;
+    width: 30vw;
+    height: 10vh; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+}
+
+/* A single Final Question */
+.final-question-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+
+.final-question-child {
+    background-color: whitesmoke;
+    border: solid black 3px;
+    width: 30vw;
+    height: 30vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:larger;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+  
+}
+
+ /* Point Bet Amount */
+.InputData {
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+    margin-top: 2%;
+}
+
+.UserInput { 
+    text-align: center;
+}
+
+
+
+/* Final Answer Input */
+.FinalInput {
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+    margin-top: 2%;
+}
+
+.UserFinalInput {
+    text-align: center;
+}
+
+
+
+/* Button for Betting, currently disabled */
+.Bet {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 5px;
+    padding: 5px;
+    
+}
+
+.betGuessBtn {
+    text-align: center;
+    border: solid, black 2px;
+    background-color: hotpink;
+    padding: 2px;
+    height: 4vh;
+    width: 8vw;
+    font-weight: bold;
+}
+
+/* button pseudo code */
+.betGuessBtn:hover {
+    background-color: lawngreen;
+}
+
+/* Footer info for Page */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    margin-bottom: 5px;
+}
+
+.footer-child {
+    background-color: rgb(148, 165, 182);
+    border: solid black 2px;
+    width: 45vh;
+    text-align: center;
+    font-size: larger;
+}

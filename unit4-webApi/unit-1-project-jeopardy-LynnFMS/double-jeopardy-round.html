@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="jeopardy-rounds-styles.css">
+    <title>The Double Jeopardy Round</title>
+  </head>
+
+  <body>
+
+    <welcome class="jeopardy-round">
+      <h1 class="jeopardy-round-text">THE DOUBLE JEOPARDY ROUND</h1>
+    </welcome>
+
+    <!-- Do not change the script source. Allows import/export to work. -->
+    <script src="./scripts/index.js" type="module"></script>
+
+    <subtitle class="player-turn">
+      <player-turn class="player-turn-child">PLAYER TURN</player-turn>
+    </subtitle>
+
+<!-- This is the whole grid -->
+    <grid class="gridd">
+      <div class="category">CATEGORY</div> 
+      <div class="category">CATEGORY</div>
+      <div class="category">CATEGORY</div> 
+      <div class="category">CATEGORY</div>
+      <div class="category">CATEGORY</div> 
+      <div class="category">CATEGORY</div>
+  
+    </grid>
+
+    <grid-cell class="celly-100">
+      <div class="cell-100">200</div> <div class="cell-100">200</div>
+      <div class="cell-100">200</div> <div class="cell-100">200</div>
+      <div class="cell-100">200</div> <div class="cell-100">200</div>
+  </grid-cell>
+
+  <grid-cell class="celly-200">
+      <div class="cell-200">400</div> <div class="cell-200">400</div>
+      <div class="cell-200">400</div> <div class="cell-200">400</div>
+      <div class="cell-200">400</div> <div class="cell-200">400</div>
+  </grid-cell>
+
+  <grid-cell class="celly-300">
+      <div class="cell-300">600</div> <div class="cell-300">600</div>
+      <div class="cell-300">600</div> <div class="cell-300">600</div>
+      <div class="cell-300">600</div> <div class="cell-300">600</div>
+  </grid-cell>
+
+  <grid-cell class="celly-400">
+      <div class="cell-400">800</div> <div class="cell-400">800</div>
+      <div class="cell-400">800</div> <div class="cell-400">800</div>
+      <div class="cell-400">800</div> <div class="cell-400">800</div>
+  </grid-cell>
+
+  <grid-cell class="celly-500">
+      <div class="cell-500">1000</div> <div class="cell-500">1000</div>
+      <div class="cell-500">1000</div> <div class="cell-500">1000</div>
+      <div class="cell-500">1000</div> <div class="cell-500">1000</div>
+  </grid-cell>
+
+
+<!-- Input Data field -->
+    <inputDiv class="InputData">
+      <input class="UserInput" placeholder="User Input">
+    </inputDiv>
+
+<!-- Guess & Pass buttons -->
+    <div class="guessPassContainer">
+      <button class="guessPassBtn">GUESS</button>
+      <button class="guessPassBtn2">PASS</button>
+    </div>
+
+<!-- Player Scores -->
+    <div class="player">
+      <p1 class="playerScores">Player 1 Score: 0</p1>
+      <p2 class="playerScores">Player 2 Score: 0</p2>
+    </div>
+
+    <!-- Button to final Jeopardy -->
+    <push class="double-container">
+      <a href="./final-jeopardy.html">
+        <button class="double-child">TO FINAL JEOPARDY</button>
+      </a>
+    </push>
+
+    <!-- footer -->
+    <f1 class="footer-container">
+      <footer class="footer-child">FOOTER SITE INFORMATION</footer>
+    </f1>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>

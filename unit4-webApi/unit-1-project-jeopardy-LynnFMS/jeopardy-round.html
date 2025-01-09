@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="jeopardy-rounds-styles.css">
+    <title>The Jeopardy Round</title>
+  </head>
+
+  <body>
+
+    <!-- The Jeopardy Round title on Page -->
+    <welcome class="jeopardy-round">
+      <h1 class="jeopardy-round-text">THE JEOPARDY ROUND</h1>
+    </welcome>
+
+    <!-- Do not change the script source. Allows import/export to work. -->
+    <script src="./scripts/index.js" type="module"></script>
+
+    <!-- Subtitle Player Turn -->
+    <subtitle class="player-turn">
+      <player-turn class="player-turn-child">PLAYER TURN</player-turn>
+    </subtitle>
+
+    <!--jeopardy board goes here-->
+    <div id="board" class="board">
+    </div>
+
+    <!-- This is the User Input form -->
+    <inputDiv class="InputData">
+      <input class="UserInput" placeholder="User Input">
+    </inputDiv>
+
+    <!-- This is the GUESS & PASS Button -->
+    <div class="guessPassContainer">
+      <button id="guessPassBtn" class="guessPassBtn" disabled>GUESS</button>
+      <button class="guessPassBtn2" disabled>PASS</button>
+    </div>
+
+    <!-- Player 1 & Player 2 Scores -->
+    <div class="player">
+      <p1 class="playerScores">Player 1 Score: 0</p1>
+      <p2 class="playerScores">Player 2 Score: 0</p2>
+    </div>
+
+    <!-- This is the button that takes you to the double jeopardy round -->
+    <push class="double-container">
+      <a href="./double-jeopardy-round.html">
+        <button class="double-child" disabled>TO DOUBLE JEOPARDY</button>
+      </a>
+    </push>
+
+    <!-- footer -->
+    <f1 class="footer-container">
+      <footer class="footer-child">FOOTER SITE INFORMATION</footer>
+    </f1>
+
+
+    <!--<script src="./scripts/index.js"></script>-->
+
+    <!-- added another script tag to take care of the alert box that opens upon getting to the jepardy-round.html page -->
+    <!--<script type="text/javascript">
+      alert("It is Player 1's turn to play, select a card");
+
+
+    </script>-->
+  </body>
+
+</html>
